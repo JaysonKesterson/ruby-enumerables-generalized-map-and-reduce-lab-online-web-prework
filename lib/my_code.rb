@@ -6,4 +6,6 @@ def map(array)
     new_array.push(array[i])
     i += 1
   end
+  yield(new_array)
+  new_array
 end
