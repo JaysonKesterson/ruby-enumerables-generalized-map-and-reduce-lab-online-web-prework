@@ -5,4 +5,5 @@ def my_own_map(array,block)
   while i < array.length do
     new_array.push(array[i])
     i += 1
+  end
 end
